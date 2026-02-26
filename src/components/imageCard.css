@@ -1,0 +1,29 @@
+.imgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(129, 115, 115, 0.2), 0 6px 20px 0 rgba(129, 115, 115, 0.2);
+}
+
+.imgText{
+    position: absolute; 
+    top: 32%;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    margin-top: 10px;
+}
+.img{
+    height: 200px;
+    width: 130px;
+    object-fit: cover;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
