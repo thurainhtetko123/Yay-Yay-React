@@ -1,11 +1,14 @@
 import ImageCard from "./components/imageCard";
 import Wrapper from "./components/wrapper";
 
+import "./App.css";
+
 function App() {
   return (
-    <>
-      <Wrapper />
-    </>
+
+    <div className="App">
+      <Wrapper/>
+    </div>
   );
 }
 
