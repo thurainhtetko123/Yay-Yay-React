@@ -1,5 +1,6 @@
 import ImageCard from "./imageCard";
 import ClockBox from "./clockBox";
+import Nav from "./nav";
 
 import "./wrapper.css";
 
@@ -14,6 +15,7 @@ function Wrapper() {
         <div className="checkBoxWrapper">
           <ClockBox />
         </div>
+        <Nav/>
         <div className="wrapper">
           <ImageCard imageSrc="/src/assets/img/1.jpg" imgText="First Image" />
           <ImageCard imageSrc="/src/assets/img/33.jpg" imgText="Second Image" />

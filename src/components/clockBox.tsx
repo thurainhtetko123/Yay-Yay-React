@@ -7,9 +7,9 @@ function ClockBox() {
           <div className="text">
             <h1>A Website For A Person Without Eyebrow</h1>
           </div>
-          <div className="clock">
+          {/* <div className="clock">
             We have dating for this long.
-          </div>
+          </div> */}
         </div>
       </div>
     </>
