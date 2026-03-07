@@ -1,13 +1,20 @@
 import "./nav.css";
+import { Link } from "react-router-dom";
 
 function Nav() {
   return (
     <>
       <aside className="sidebar">
         <nav>
-          <div className="linkBlock">Home</div>
-          <div className="linkBlock">Photoes</div>
-          <div className="linkBlock">Upload</div>
+          <Link to="/" className="linkBlock">
+            Home
+          </Link>
+          <Link to="/" className="linkBlock">
+            Photos
+          </Link>{" "}
+          <Link to="/" className="linkBlock">
+            Upload
+          </Link>
         </nav>
       </aside>
     </>
