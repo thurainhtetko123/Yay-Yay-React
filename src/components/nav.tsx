@@ -9,7 +9,7 @@ function Nav() {
           <Link to="/" className="linkBlock">
             Home
           </Link>
-          <Link to="/" className="linkBlock">
+          <Link to="/ToDoPage" className="linkBlock">
             Photos
           </Link>{" "}
           <Link to="/" className="linkBlock">

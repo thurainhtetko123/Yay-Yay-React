@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import "bootstrap/dist/css/bootstrap.css";
 import Home from "./Pages/Home";
+import ToDoPage from "./Pages/ToDoPage";
 
 import {
   BrowserRouter,
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <Home />,
     errorElement: <NotFoundPage />,
+  },
+  {
+    path: "/ToDoPage",
+    element: <ToDoPage />,
   },
 ]);
 
