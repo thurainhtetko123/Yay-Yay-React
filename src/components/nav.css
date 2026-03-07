@@ -29,3 +29,10 @@ nav{
     box-shadow: 4px 4px 4px 1px rgb(209, 209, 209);
     text-decoration: none;
 }
+
+
+@media (width<450px){
+    nav{
+        gap: 1rem;
+    }
+}

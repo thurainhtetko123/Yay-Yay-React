@@ -8,7 +8,7 @@ import { Heart } from "lucide-react";
 
 
 
-function Wrapper() {
+function Home() {
   return (
     <>
       <div className="beforeWrapper">
@@ -29,4 +29,4 @@ function Wrapper() {
   );
 }
 
-export default Wrapper;
+export default Home;
